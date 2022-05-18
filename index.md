@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/xc10068/doc.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+这是一套致力于提升cg影视动画制作效率、规范性、自动化的流程系统。包括生产制作环境搭建、文件发布提交、环节文件自动生成、文件管理等。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 搭建生成环境
+> 通用软件、插件等服务器统一安装部署(例如：arnold、redshift等都可以服务器统一安装，不需要制作人员每台机器都安装。)， 以供不同项目、制作人员统一调用。保证同一个项目不同制作人员都能使用相同的生成、插件环境，这对于同时进行多个项目特别有用。
 
-### Markdown
+## 创建项目环境
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+配置当前项目使用到软件、插件、项目基础设置等。（这样Maya新建一个空白文件时会自动继承这些设置）
 
-```markdown
-Syntax highlighted code block
+### 项目配置
 
-# Header 1
-## Header 2
-### Header 3
+这些具体包括：
 
-- Bulleted
-- List
+- 软件、插件版本（如：Maya、Arnold版本）
+- 渲染分辨率
+- 帧速率
+- 项目文件存储服务器（自动盘符映射、用户权限分配）
 
-1. Numbered
-2. List
+### 启动器
 
-**Bold** and _Italic_ and `Code` text
+> 项目的配置完成后，通过项目启动器开启制作软件。
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+## 文件发布
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xc10068/doc.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## 文件管理
