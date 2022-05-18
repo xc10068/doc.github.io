@@ -1,1 +1,18 @@
-theme: jekyll-theme-cayman
+site_name: XPipeline 用户手册
+site_description: 流程工具使用文档
+
+
+theme:
+    # mkdocs readthedocs
+    name: readthedocs
+
+nav:
+  - 流程概述: index.md
+  - 用户指南:
+      - 创建项目: index.md
+      - 发布概述: index.md
+      - 文件管理: index.md
+  - 开发者指南:
+      - 发布: index.md
+
+  - 关于: index.md
